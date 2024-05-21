@@ -1,0 +1,110 @@
+*{box-sizing: border-box;padding: 0;margin: 0;transition: all 1s ease;}
+body
+{
+    background:linear-gradient(to left, rgba(11, 11, 11, 0.928), #181817e9), url('bckimg.jpeg')  no-repeat scroll center;
+    background-size: cover;
+}
+
+/* ....FIRST DIV....... */
+
+#fstDiv
+{
+    background-color: rgb(231, 225, 205);height: 20vh;display: flex;
+    flex-direction: row;justify-content: space-between;align-items: center;
+}
+#LogoDedign
+{
+    height: 1.3em;width:2em; position: relative;top: .2em;
+    border-radius: 20vh;
+}
+#fstLeftDiv
+{
+    position: relative;left: 7em;gap: .9em;width: 40em;
+    display: flex;flex-direction: column;justify-content: space-between;
+}
+#fastLeftUpperLink
+{
+    font-size: .7em;width: 30em;display: flex;flex-direction: row;
+    justify-content: space-between;align-items: center;
+}
+#logo{font-size: 2em;font-weight: bold;}
+span{color: white;}
+#nevigation:hover
+{
+   color:rgb(73, 59, 59);
+}
+#search
+{
+    height:2.5em;width: 25em;border: none;background-color: white;
+    padding: 1em;border-radius: 3em; position: relative;left: 2em;
+}
+#search:hover
+{
+    transition: all 1s ease;background-color: rgb(238, 243, 245);color: black;
+}
+#fstRightDiv
+{
+    width: 25em;height:2.5em ;display: flex;flex-direction: row;
+    justify-content: space-between;align-items: center;position: relative;right: 4em;
+}
+#SignInUp
+{
+    height: 5vh;
+    width: 12em;display: flex;flex-direction: row;justify-content: space-between;align-items: center;
+}
+#signup
+{
+    background-color: orange;padding: .5em;border-radius: 1em;
+    border: none;width: 6em;border: none;
+}
+#signup:hover
+{
+    cursor: pointer;
+}
+#sign
+{
+    background-color: rgb(231, 225, 205);border: none;border-bottom: .1em solid black;
+}
+#sign:hover{
+    color: rgb(99, 86, 86);cursor: pointer;
+}
+#light, #dark
+{
+    color: white;background-color: black;border: none;padding: .3em;
+    border-radius: .5em;
+}
+#light:hover
+{
+    background-color: aliceblue;color: black;border-radius: .3em;
+    transition: all 1.5s ease;
+}
+#dark:hover
+{
+    background-color: aliceblue;color: black;border-radius: .3em;transition: all 1.5s ease;
+}
+a
+{
+    color: black;text-decoration: none;font-size: 1.2em;
+}
+#divfst{
+    height: 60vh;width:30%;background-color: aliceblue;
+    display: flex;flex-direction: column;justify-content:space-around ;
+    align-items: center;position: relative;position: relative;
+    top: 10vh;left: 33%;border-radius: 2em;
+}
+#divTwoBtn{
+    display: flex;flex-direction: row;justify-content: space-around;align-items: center;
+    gap: 2em;
+}
+#audianceAuthority
+{
+    background-color:orange ;
+    color: black;text-decoration: none; width: 60%; height: 6vh;
+    padding: 1em; border-radius: 1em;text-align: center;border: none;
+}
+#audianceAuthority:hover{
+    background-color: antiquewhite;
+}
+#logo{
+    border-radius: 2em;
+}

@@ -1,0 +1,237 @@
+*{box-sizing: border-box;padding:0;margin: 0;transition: all 1s ease;}
+/* body{
+    background:linear-gradient(to left, rgba(11, 11, 11, 0.928), #181817e9), url('bckimg.jpeg')  no-repeat scroll center;
+    background-size: cover;
+} */
+/* ....FIRST DIV....... */
+
+#fstDiv
+{
+    width: 100%;
+    background-color: rgb(231, 225, 205);height: 20vh;display: flex;
+    flex-direction: row;justify-content: space-between;align-items: center;
+    z-index: 9;position: fixed;
+}
+#LogoDedign
+{
+    height: 1.3em;width:2em; position: relative;top: .2em;
+    border-radius: 20vh;
+}
+#fstLeftDiv
+{
+    position: relative;left: 7em;gap: .9em;width: 40em;
+    display: flex;flex-direction: column;justify-content: space-between;
+}
+#fastLeftUpperLink
+{
+    font-size: .7em;width: 30em;display: flex;flex-direction: row;
+    justify-content: space-between;align-items: center;
+}
+#logo{font-size: 2em;font-weight: bold;}
+span{color: white;}
+#nevigation:hover
+{
+   color:rgb(73, 59, 59);
+}
+#search
+{
+    height:2.5em;width: 25em;border: none;background-color: white;
+    padding: 1em;border-radius: 3em; position: relative;left: 2em;
+}
+#search:hover
+{
+    transition: all 1s ease;background-color: rgb(238, 243, 245);color: black;
+}
+#fstRightDiv
+{
+    width: 25em;height:2.5em ;display: flex;flex-direction: row;
+    justify-content: space-between;align-items: center;position: relative;right: 4em;
+}
+#SignInUp
+{
+    height: 5vh;
+    width: 12em;display: flex;flex-direction: row;justify-content: space-between;align-items: center;
+}
+#signup
+{
+    background-color: orange;padding: .5em;border-radius: 1em;
+    border: none;width: 6em;border: none;
+}
+#signup:hover
+{
+    cursor: pointer;
+}
+#sign
+{
+    background-color: rgb(231, 225, 205);border: none;border-bottom: .1em solid black;
+}
+#sign:hover{
+    color: rgb(99, 86, 86);cursor: pointer;
+}
+#light, #dark
+{
+    color: white;background-color: black;border: none;padding: .3em;
+    border-radius: .5em;
+}
+#light:hover
+{
+    background-color: aliceblue;color: black;border-radius: .3em;
+    transition: all 1.5s ease;
+}
+#dark:hover
+{
+    background-color: aliceblue;color: black;border-radius: .3em;transition: all 1.5s ease;
+}
+a
+{
+    color: black;text-decoration: none;font-size: 1.2em;
+}
+/* ...........SCND DIV,;........... */
+#divTwo
+{
+    height: 60vh;position: relative;top: 10em;
+}
+#LoginPage{
+    height: 60vh;width: 25%;color: white;
+    position: relative;top: 10vh;  margin: auto;border-radius: 2em;
+    background:linear-gradient(to left, rgba(11, 11, 11, 0.928), #181817e9), url('bckimg.jpeg')  no-repeat scroll center;
+    background-size: cover;transform: scale(1);
+}
+#LoginPage:hover{
+    transition: all 1s ease;
+    transform: scale(1.1);
+}
+#NameSection{text-align: center;position: relative;top: 2vh;}
+#EvenTure{font-size: 3em;}
+#pSection{font-size: .7em;position: relative;left: 2em;}
+#EventLogo{height: 20vh;border-radius: 20vh;
+    position: relative;top: 10vh;left: 30%;}
+#LogInUp{position: relative;left: 20%;}
+.signInUp{position: relative;top: 20vh;
+height: 2.5em;width: 30%;border-radius: 2em;}
+.signInUp:hover{
+    background-color: orange;color: white;cursor: pointer;
+}
+
+/* .........DIV Five........ */
+#populer{text-align: center;position: relative;margin-top: 20vh;}
+#divFive
+{
+    height: 110vh;position: relative;top: 10em;
+}
+#divFiveDetails{
+    height: 100vh;width: 90%; display: flex;flex-direction: row;
+    justify-content: space-around;align-items: center;
+}
+#divFiveSection
+{
+    width: 28%; height: 80vh;background-color: rgb(245, 247, 250);
+    border-radius: 2em;position: relative;left: 7%;
+}
+#shopEarnDealCare,#details {padding: 1em;text-align: center;
+}
+#divFiveImg{
+    height: 50vh;width: 100%;position: relative;top: 10vh;
+    border-radius: 0em 0em 2em 2em;
+}
+
+/* ..........DIV SIX......... */
+#divSix
+{
+    height: 20vh;width: 100%;position: relative;top: 10em;
+}
+#payType{
+    display: flex;flex-direction: row;justify-content: space-around;
+    align-items: center;width: 70%;position: relative;left:15%;top: 5vh;
+}
+#payBll{
+    height: 10vh;
+}
+/* ..........DIV Six......... */
+#divSix
+{
+    height: 70vh;width: 100%;position: relative;top: 10em;
+}
+#divSixFourBlock{
+    width: 70%;display: flex;flex-direction: row;
+    justify-content: space-between;align-items: center;
+}
+#divSixBlock{
+    background-color:aliceblue;margin-top: 5em;
+    position: relative;left: 20%;padding: 2em;
+    width: 45%;border-radius: 1em;
+}
+#DivSixBlockP
+{margin-top:1em ;}
+#SixDivIcon{position: relative;left: 1em;}
+
+
+/* ...........DIV SEVEN......... */
+#divSeven{
+    height: 50vh;width: 100%;position: relative;top: 8em;
+}
+#DivSevenTwoBlock{
+    display: flex;flex-direction: row;justify-content: space-between;
+    align-items: center;width: 80%;height: 40vh;margin-top: 5vh;position: relative;left: 5%;
+}
+#divSevenBlock
+{
+    height: 35vh;position: relative;left: 10%;border-radius: 2em;
+    width: 45%;background-color: aliceblue;
+    display: flex;flex-direction: row;justify-content: space-between;align-items: center;
+}
+#divSevenHP
+{
+    padding: 2em;
+}
+#divSevenImg
+{
+    height: 35vh;width: 50%;border-radius: 0em 1em 1em 0em;
+}
+#DivSevenBlockP{margin-top: 1em;}
+#divSevenBtn{
+    margin-top: 2em;width: 80%;height: 4vh;border-radius: 1em;
+    background-color: rgb(243, 133, 30); color: white;border: none;
+}
+#divSevenBtn:hover{
+    background-color: rgb(219, 206, 194);color: black;
+    cursor: pointer;
+}
+
+/* .........DIV Eight.... */
+#divEight
+{
+    height: 30vh;width: 100%; position: relative;top: 8em;
+}
+/* ...........DIV NINE,.......... */
+#divNine{
+    height: 30vh;  width: 100%;
+    position: relative;top: 10em;
+}
+#divAbout{
+    height: 30vh;
+    display: flex;flex-direction:row;justify-content: space-around;
+    background-color: rgb(245, 247, 250);padding: 1em;
+}
+#divaboutGroceryStore
+{
+    display: flex;
+    flex-direction: column;margin-top: 1em;
+}
+#terms{
+    margin-top: .4em;color: rgb(143, 125, 125);
+}
+#terms:hover{
+    color: black;
+}
+
+/* .........FOOTER ....... */
+footer
+{
+    position: relative;top: 10em;
+    padding: 1em;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+#copyName{color: darkgray;}

@@ -1,0 +1,81 @@
+*{box-sizing: border-box;padding:0;margin: 0;transition: all 1s ease;}
+body{
+    height: 120vh;
+    background:linear-gradient(to left, rgba(11, 11, 11, 0.928), #181817e9), url('bckimg.jpeg')  no-repeat scroll center;
+    background-size: cover;transition: all 1s ease;
+}
+
+/* ....FIRST DIV....... */
+
+#fstDiv
+{
+    background-color: rgb(231, 225, 205);height: 20vh;display: flex;
+    flex-direction: row;justify-content: space-between;align-items: center;
+    z-index: 9;position: fixed;width: 100%;
+}
+#LogoDedign
+{height: 1.3em;width:2em; position: relative;top: .2em;border-radius: 20vh;}
+#fstLeftDiv
+{position: relative;left: 7em;gap: .9em;width: 40em;display: flex;flex-direction: column;justify-content: space-between;}
+#fastLeftUpperLink
+{font-size: .7em;width: 30em;display: flex;flex-direction: row;justify-content: space-between;align-items: center;}
+#logo{font-size: 2em;font-weight: bold;}
+span{color: white;}
+#nevigation:hover
+{color:rgb(73, 59, 59);}
+#search
+{height:2.5em;width: 25em;border: none;background-color: white;
+padding: 1em;border-radius: 3em; position: relative;left: 2em;}
+#search:hover
+{transition: all 1s ease;background-color: rgb(238, 243, 245);color: black;}
+#fstRightDiv
+{width: 25em;height:2.5em ;display: flex;flex-direction: row;
+justify-content: space-between;align-items: center;position: relative;right: 4em;}
+#SignInUp
+{ height: 5vh;width: 12em;display: flex;flex-direction: row;justify-content: space-between;align-items: center;}
+#signup
+{background-color: orange;padding: .5em;border-radius: 1em; border: none;width: 6em;border: none;}
+#signup:hover
+{cursor: pointer;}
+#sign
+{background-color: rgb(231, 225, 205);border: none;border-bottom: .1em solid black;}
+#sign:hover{ color: rgb(99, 86, 86);cursor: pointer;}
+#light, #dark
+{color: white;background-color: black;border: none;
+padding: .3em;border-radius: .5em;}
+#light:hover
+{
+    background-color: aliceblue;color: black;border-radius: .3em;
+    transition: all 1.5s ease;
+}
+#dark:hover
+{background-color: aliceblue;color: black;border-radius: .3em;transition: all 1.5s ease;}
+a
+{color: black;text-decoration: none;font-size: 1.2em;}
+
+#SignInPage{
+    transition: all 1s ease;transform: scale(.7);
+    height: 90vh;width: 25%;color: white;
+    background-color: rgb(13, 13, 12);position: relative;
+    top: 30vh; margin: auto;border-radius: 2em;
+}
+#SignInPage:hover{
+    transform: scale(.8);}
+#signIn{text-align: center;position: relative;top: 10vh;}
+form{
+    display: flex;flex-direction: column;justify-content: space-around;align-items: center;
+    position: relative;top: 15vh;
+}
+input{
+   margin-top: 1em;height: 6vh;width: 70%;border:none; border-radius: 2em;padding: 1em;
+}
+.submit:hover{
+    transition: all 1s ease;
+    background-color: aliceblue;
+}
+.submit{height: 5vh;border: none;border-radius: 2em;
+    width: 8em;background-color: orange;position: relative;top: 8em;left: 4em;
+}
+#forgotPass{
+    position: relative;top: 20vh;left: 25vh;
+}
